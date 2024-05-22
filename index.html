@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Lemon Cookie</title>
+</head>
+
+<body>
+  <header>
+    <nav >
+      <img src="public/images/cookie-logo.gif" alt="logo" width="100px">
+      <p>Lemon Cookie</p>
+      <ul>
+        <li><a href="/home">Inicio</a></li>
+        <li><a href="/services">Servicios</a></li>
+        <li><a href="/contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <nav class="menu">
+    <ul>
+      <li><a href="/detalle/artesanales">Artesanales</a></li>
+      <li><a href="/detalle/red-velvet">Red Velvet</a></li>
+      <li><a href="/detalle/chocolatosas">Veganas</a></li>
+    </ul>
+  </nav>
+  <section class="hero">
+    <picture>
+      <source media="(max-width: 600px)" srcset="/public/images/cookie-mobile.webp" />
+      <source media="(min-width: 600px)" srcset="/public/images/cookie-desktop.webp" />
+      <img src="/public/images/cookie-mobile.webp" alt="cookie" />
+    </picture>
+    <img class="solo-desktop" src="/public/images/cookie-mobile.webp" alt="cookie" />
+    <div class="hero-content">
+      <h1>
+        Cookie del dia
+      </h1>
+      <h3>
+        Mint cookie
+      </h3>
+      <h5>
+        Disfruta la galleta
+      </h5>
+    </div>
+  </section>
+  <section class="contenido">
+    <video src="/public/images/cookie-video.mp4" width="500" autoplay muted>
+      Tu navegador no soporta la etiqueta
+    </video>
+    <p>"Imagina una galleta tan especial como un abrazo cálido de mamá: de suave masa de vainilla con esencia de
+      lavanda, horneada a la perfección hasta alcanzar un dorado suave"</p>
+  </section>
+  <section class="articulo">
+    <img src="public/images/cookie-article.webp" alt="Una galleta" />
+    <img src="public/images/frambuesa.jpg" alt="Una galleta frambuesa" />
+    <img src="public/images/estrella.jpg" alt="Una galleta estrella" />
+    <img src="public/images/navidena.jpg" alt="Una galleta navideña" />
+    <img src="public/images/nuez.jpg" alt="Una galleta de nuez" />
+    <img src="public/images/surtido.jpg" alt="Galletas surtida" />
+    <img src="public/images/mora.jpg" alt="Una galleta de mora" />
+    <img src="public/images/pascua.jpg" alt="Una galleta de pascua" />
+    <img src="public/images/ricarda.jpg" alt="Una galleta ricarda" />
+  </section>
+  <footer>
+    <p>
+      Lemon cookie &#169
+    </p>
+    <nav class="footer-nav-redes-sociales">
+      <ul>
+        <li><a href="/facebook"><img src="/public/images/facebook.svg"/></a></li>
+        <li><a href="/instagram"><img src="/public/images/instagram.svg"/></a></li>
+        <li><a href="/tiktok"><img src="/public/images/tiktok.svg"/></a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
